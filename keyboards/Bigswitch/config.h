@@ -21,20 +21,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-/*#define VENDOR_ID       0xCEEB
+#define VENDOR_ID       0xCEEB
 #define PRODUCT_ID      0x0007
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    That-Canadian*/
+#define MANUFACTURER    ClackClack
 #define PRODUCT         Big Switch
-#define DESCRIPTION     Big Fucking Switch 
+#define DESCRIPTION     Big Fucking Switch
 
 /* key matrix size */
 #define MATRIX_ROWS 1
-
+#define MATRIX_COLS 6
 
 /* pin-out */
 #define MATRIX_ROW_PINS { F5 }
-
+#define MATRIX_COL_PINS { F4, D4, B5, B6, B2, F6 }
 #define UNUSED_PINS
 
 /* ws2812 RGB LED */
