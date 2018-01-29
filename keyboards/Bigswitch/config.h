@@ -41,7 +41,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_DI_PIN F7
 #define RGBLIGHT_TIMER
 #define RGBLIGHT_ANIMATIONS
-#define RGBLED_NUM 3    // Number of LEDs
+#define RGBLED_NUM 6    // Number of LEDs
 #define ws2812_PORTREG  PORTD
 #define ws2812_DDRREG   DDRD
 
